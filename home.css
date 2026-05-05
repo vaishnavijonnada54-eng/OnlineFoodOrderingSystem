@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(135deg,#eaecf1 0%,#f0eff4 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 40px;
+    background-color:brown;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;   /* ADD THIS */
+}
+
+
+.logo {
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    text-decoration: underline;
+}
+
+.home-container {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    color: rgb(164, 43, 43);
+    margin-bottom: 30px;
+}
+
+
+.food-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    gap: 40px;
+    justify-content: center;
+}
+
+
+
+
+.food-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.food-card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.food-card h3 {
+    margin: 10px 0 5px;
+    color: brown;
+}
+
+.btn-cart {
+    background: brown;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-cart:hover {
+    background: #ce7878;
+}

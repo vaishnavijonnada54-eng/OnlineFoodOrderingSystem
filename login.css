@@ -1,0 +1,138 @@
+body{
+    background-color: linear-gradient(135deg,#667eea 0%,#764ba2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navigation{
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+     padding:15px 40px;
+     background-color:brown;
+     position:fixed;
+     top:0;
+     left:0;
+     width:100%;
+     z-index: 1000;;
+}
+.logo
+{
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navlinks a:hover{
+    text-decoration: underline;
+}
+.logincontainer {
+    background-color:white;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(10,32,68,0.50);
+    width: 100%;
+    max-width: 420px;
+}
+.loginheader {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1%;
+    color:brown;
+    font-size: 20px;
+    font-family:sans-serif;
+    
+}
+.loginheader h1{
+    color:brown;
+    font-weight: 600;
+    color: rgb(17, 16, 16);
+    font-size: 70px;
+}
+.form-control {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-weight: 500;
+    background: linear-gradient(135deg,#e2e3e9 0%,#e2dfe4 100%);
+    border: none;
+    width: 100%;
+    
+}
+.btn-login {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-weight: 500;
+    background: brown;
+    border: none;
+    width: 100%;
+    font-size: larger;
+    color: white;
+}
+.btn-login:hover {
+    background:linear-gradient(135deg,#ce7878 0%,#dc7c5c 100%);
+}
+.form-check-label {
+    font-size: 0.9rem;
+}
+.divider {
+    text-align: center;
+    margin: 1.5rem 0;
+    position: relative;
+    color:#999;
+}
+.divider::before {
+    content:'';
+    position: absolute;
+    top:50%;
+    left:0;
+    right:0;
+    height:1px;
+    background: #ddd;
+}
+.divider span {
+    background-color: white;
+    padding: 0 1rem;
+    position: relative;
+    z-index:0;
+}
+.social-btn {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-weight: 500;
+    background: linear-gradient(135deg,#e8e9ec 0%,#c2bcc7 100%);
+    border: none;
+    width: 100%;
+}
+.text-declaration-none {
+    float:right;
+}
+.btn-g {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-weight: 500;
+    background:brown;
+    border: none;
+    width: 100%;
+    font-size: medium;
+    border-radius: 12px;
+    color: white;
+
+}
+.log {
+    color:brown;
+    font-size: 15px;
+
+
+}

@@ -1,0 +1,55 @@
+body{
+font-family:Arial;
+background:#f4f4f4;
+padding:40px;
+}
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 40px;
+    background-color:brown;
+}
+
+.logo {
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.navlinks {
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.navlinks a {
+    color:white;
+    text-decoration:none;
+}
+
+.navlinks a:hover {
+    text-decoration:underline;
+}
+h1{
+text-align:center;
+color:brown;
+}
+
+table{
+width:80%;
+margin:auto;
+border-collapse:collapse;
+background:white;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+}
+
+th{
+background:brown;
+color:white;
+}

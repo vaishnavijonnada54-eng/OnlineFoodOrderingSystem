@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FoodExpress - Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+<nav class="navigation">
+    <div class="logo">FoodExpress</div>
+    <ul class="navlinks">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="order.html">Orders</a></li>
+        <li><a href="admin.html">Admin</a></li>
+    </ul>
+</nav>
+
+<div class="cart-container">
+
+    <h2 class="cart-title">Your Cart 🛒</h2>
+
+
+    <div id="cart-items"></div>
+
+   
+    <div class="cart-summary">
+       <h3 id="total-price">Total: ₹0</h3> 
+        <a href="order.html">
+<button class="checkout-btn">Proceed to Order</button>
+<button onclick="clearCart()">Clear Cart</button>
+</a>
+    </div>
+
+</div>
+<script src="cart.js"></script>
+</body>
+</html>

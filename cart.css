@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(135deg,#eaecf1 0%,#f0eff4 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 40px;
+    background-color:brown;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    color:white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.navlinks a:hover {
+    text-decoration: underline;
+}
+
+.cart-container {
+    width: 70%;
+    margin: auto;
+}
+
+.cart-title {
+    text-align: center;
+    color: brown;
+    margin-bottom: 30px;
+}
+
+.cart-item {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.cart-item img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.item-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.item-details h3 {
+    margin: 0;
+    color: brown;
+}
+
+.qty {
+    width: 60px;
+    padding: 5px;
+}
+
+.remove-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background: #b02a37;
+}
+
+.cart-summary {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.checkout-btn {
+    background: brown;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background: #ce7878;
+}
